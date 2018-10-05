@@ -616,7 +616,7 @@ int bloque(int movimiento[],int movimiento2[],bool &alderecho,bool &selec)
             cout<<"caso1="<<resultado;
             if( resultado < 0)
             {
-                cout<<"caso2="<<resultado;
+                cout<<"caso3="<<resultado;
                 resultado = sqrt((movimiento[1]-movimiento2[1])*(movimiento[1]-movimiento2[1]));
                 alderecho = false;
                 selec = true;
